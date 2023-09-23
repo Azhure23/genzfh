@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gen'Z Foodhouse | Demo</title>
-  <link rel="shortcut icon" type="image/x-icon" href="image/GenzLogo.png?">
+  <link rel="icon" type="image/x-icon" href="image/GenzLogo.png">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="menu.css">
   <link rel="stylesheet" href="animate.css">
@@ -28,6 +28,7 @@
         <li><a href="#Home">Home</a></li>
         <li><a href="#About">About</a></li>
         <li><a href="#Menu">Menu</a></li>
+        <li><a href="#Order">Order</a></li>
         <li><a href="#Review">Review</a></li>
         <button><a href="https://www.facebook.com/profile.php?id=61551637952494" target="_blank">Order Now</a></button>
       </ul>
@@ -35,7 +36,9 @@
       <div class="icon">
         <i class="fa-solid fa-heart"></i>
         <i class="fas fa-shopping-cart"></i>
-        <a href="https://azhure23.github.io/genfhow/"><i class="fa-solid fa-question-circle"></i></a>
+        <a
+          href="file:///D:/files/Business%20Website/Gen'Z%20Foodhouse%20Website(Demo)/Gen'Z%20Foodhouse%20Website/how.html"><i
+            class="fa-solid fa-question-circle"></i></a>
       </div>
 
     </nav>
@@ -45,11 +48,11 @@
       <div class="men_text">
         <h1>"<span>Positive</span> sa <br>Panlasa at Bulsa"</h1>
         <p>
-          Positive is a word that won't make people want to shop at our store. 
-          Because you can purchase a high-quality lunch for less than Php100. 
-          It will encourage customers to try our meals and beverages. Customers will 
-          return if the price is truly fair and the food is of high quality. "Positive sa panlasa at bulsa" 
-          meaning that our product is very good and tasty, Our product promotes budget 
+          Positive is a word that won't make people want to shop at our store.
+          Because you can purchase a high-quality lunch for less than Php100.
+          It will encourage customers to try our meals and beverages. Customers will
+          return if the price is truly fair and the food is of high quality. "Positive sa panlasa at bulsa"
+          meaning that our product is very good and tasty, Our product promotes budget
           friendly and savory food that everyone can enjoy!
         </p>
         <div class="main_btn">
@@ -81,7 +84,8 @@
         <h1><span>About</span>Us</h1>
         <h3>Why Choose us?</h3>
         <p>
-          A business that aims to provide our cherished consumers with high-quality services. selling inexpensive, high-quality, and nutrient-dense food for the general public. You might exclaim 
+          A business that aims to provide our cherished consumers with high-quality services. selling inexpensive,
+          high-quality, and nutrient-dense food for the general public. You might exclaim
           "So yummy" when you see the price because the meal is of excellent quality and is of high quality.
         </p>
       </div>
@@ -100,8 +104,10 @@
       <div class="menu-container">
 
         <div class="menu-btns">
-          <button type="button" class="menu-btn active-btn" id="featured"><i class="fas fa-utensil-spoon"></i>Meals</button>
-          <button type="button" class="menu-btn" id="today-special"><i class="fa-solid fa-wine-glass"></i>Drinks</button>
+          <button type="button" class="menu-btn active-btn" id="featured"><i
+              class="fas fa-utensil-spoon"></i>Meals</button>
+          <button type="button" class="menu-btn" id="today-special"><i
+              class="fa-solid fa-wine-glass"></i>Drinks</button>
           <button type="button" class="menu-btn" id="new-arrival"><i class="fa-solid fa-cookie"></i>Pancakes</button>
         </div>
 
@@ -283,7 +289,7 @@
                 <li><i class="fas fa-star"></i></li>
                 <li><i class="fas fa-star"></i></li>
                 <li><i class="fas fa-star-half-stroke"></i>
-                <a>4.4</a>
+                  <a>4.4</a>
               </ul>
             </div>
           </div>
@@ -316,6 +322,78 @@
 
   </div>
 
+  <!--Order-->
+
+  <div class="order" id="Order">
+    <h1><span>Order</span>Now</h1>
+
+    <div class="order_main">
+
+      <div class="order_image">
+        <img src="image/order_image.png">
+      </div>
+
+      <form action="https://formsubmit.co/fritzylopey142@gmail.com" method="POST">
+
+        <div class="input">
+          <p>Name</p>
+          <input type="text" name="Name" placeholder="Full Name" required>
+        </div>
+
+        <div class="input">
+          <p>Email</p>
+          <input type="email" name="Email" placeholder="Email Address" required>
+        </div>
+
+        <div class="input">
+          <p>Number</p>
+          <input type="text" name="Phone No." placeholder="+63" required>
+        </div>
+
+        <div class="input">
+          <p>Address</p>
+          <input type="text" name="Address" placeholder="Home Address" required>
+        </div>
+
+        <div class="input">
+          <p>Select Food</p>
+          <select class="food_choice" name="Food" required>
+            <option value="Bacsilog">Bacsilog</option>
+            <option value="Hamsilog">Hamsilog</option>
+            <option value="Hotsilog">Hotsilog</option>
+            <option value="Tonkatsusilog">Tonkatsusilog</option>
+            <option value="Tocilog">Tocilog</option>
+            <option value="Chocolate Pancake">Chocolate Pancake</option>
+            <option value="Caramel Pancake">Caramel Pancake</option>
+          </select>
+        </div>
+
+        <div class="input">
+          <p>Select Drink</p>
+          <select class="food_choice" name="Drink" required>
+            <option value="Red Iced Tea">Red Iced Tea</option>
+            <option value="Blue Lemonade">Blue Lemonade</option>
+          </select>
+        </div>
+
+        <div class="input">
+          <p>Quantity</p>
+          <input type="number" name="Quantity" placeholder="Quantity" required>
+        </div>
+
+        <div class="input">
+          <p>Add-ons</p>
+          <input name="Add-ons" placeholder="e.g. add marshmallows">
+        </div>
+        <button type="submit" class="order_btn">Send Order</button>
+        <p class="note">Note: We will send you an email if we receice <br>your order. Make sure that the you
+          order <br>are in the menu.</p>
+
+      </form>
+
+    </div>
+
+  </div>
 
   <!--Review-->
 
@@ -348,7 +426,8 @@
           </div>
 
           <p>
-            This cozy restaurant has left the best impressions! Hospitable hosts, delicious dishes, beautiful presentation, wide wine list 
+            This cozy restaurant has left the best impressions! Hospitable hosts, delicious dishes, beautiful
+            presentation, wide wine list
             and wonderful dessert. I recommend to everyone! I would like to come back here again and again.
           </p>
 
@@ -381,7 +460,8 @@
           </div>
 
           <p>
-            I have to say, I enjoyed every single bite of the meal in. I had a 3 course meal, with a drinks. Considering the quality, the price is reasonable. 
+            I have to say, I enjoyed every single bite of the meal in. I had a 3 course meal, with a drinks. Considering
+            the quality, the price is reasonable.
             Ideal for those who want a quality food and price.
           </p>
 
@@ -414,9 +494,9 @@
           </div>
 
           <p>
-            The food is always fantastic and no matter what I order I am always 
-            delighted with my meal! Servers are also great and always efficient, happy and polite. 
-            Can’t wait to return and wouldn’t hesitate to recommend to anyone looking for somewhere 
+            The food is always fantastic and no matter what I order I am always
+            delighted with my meal! Servers are also great and always efficient, happy and polite.
+            Can’t wait to return and wouldn’t hesitate to recommend to anyone looking for somewhere
             to eat in
           </p>
 
@@ -449,7 +529,7 @@
           </div>
 
           <p>
-            Delicious food, waiters are very attentive. Plus it’s all at an affordable price. 
+            Delicious food, waiters are very attentive. Plus it’s all at an affordable price.
             Can totally recommend it and will definitely come back again.
           </p>
 
