@@ -1076,6 +1076,15 @@ footer .end {
     color: #ffffff;
 }
 
+footer .end a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    font-size: 10px;
+    color: #ffffff;
+}
+
 footer .end span {
     color: #ffffff;
     margin-left: 10px;
