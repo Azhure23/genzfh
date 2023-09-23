@@ -767,6 +767,11 @@ img {
     grid-gap: 0 10px;
 }
 
+.order .order_main .note{
+    font-size: 10px;
+    font-weight: bold;
+}
+
 .order .order_main form .input p {
     line-height: 25px;
 }
@@ -923,7 +928,7 @@ img {
 .team .team_box .profile .info .name {
     color: #fa5931;
     margin-bottom: 15px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .team .team_box .profile .info .bio {
@@ -1002,7 +1007,7 @@ img {
 .team .team_box .profile_mid .info .name {
     color: #fa5931;
     margin-bottom: 15px;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .team .team_box .profile_mid .info .bio {
